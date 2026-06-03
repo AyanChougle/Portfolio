@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lightning | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <h2 class="logo">⚡Ayan</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Flutter Dev · CS Student · Mumbai</div>
+      <h1>Hi, I'm <span class="name">Ayan</span><span class="cursor">_</span></h1>
+      <p class="subtitle">I build mobile apps and web experiences that actually work. Currently deep in Flutter and Firebase.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="Ayan resume.pdf" download class="btn btn-outline">Download Resume</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="about-layout">
+      <div class="about-label">ABOUT</div>
+      <div class="about-content">
+        <h2>Building stuff that <em>actually ships.</em></h2>
+        <p>
+          Final year CE student at ARM-IET, Mumbai. I focus on Flutter for mobile, Python for backend logic, and Firebase for the glue in between. I don't just make tutorial clones — everything I build solves a real problem or teaches me something new.
+        </p>
+        <p>
+          When I'm not coding I'm gaming, watching anime, or on the football pitch. Online I go by <strong>Lightning</strong>.
+        </p>
+        <div class="stat-row">
+          <div class="stat"><span>10+</span><p>Projects built</p></div>
+          <div class="stat"><span>3+</span><p>Years coding</p></div>
+          <div class="stat"><span>Flutter</span><p>Main stack</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-header">
+      <div class="section-label">SKILLS</div>
+      <h2>Tech I actually use</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-icon">🐦</div>
+        <span>Flutter</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🔥</div>
+        <span>Firebase</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🐍</div>
+        <span>Python</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">⚗️</div>
+        <span>Flask</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🌐</div>
+        <span>HTML / CSS</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">⚙️</div>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🐙</div>
+        <span>Git & GitHub</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">🗄️</div>
+        <span>Dart</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-header">
+      <div class="section-label">PROJECTS</div>
+      <h2>Things I've shipped</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card featured">
+        <div class="project-tag">Featured</div>
+        <h3>Streak Tracker App</h3>
+        <p>Flutter productivity app to build and maintain daily habits through streak tracking. Goal creation, progress monitoring, local notifications, and dark-theme UI with Hive + Provider.</p>
+        <div class="tech-tags">
+          <span>Flutter</span><span>Hive</span><span>Provider</span><span>Dart</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/AyanChougle/Streak-app" target="_blank" rel="noopener" class="link-btn">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card featured">
+        <div class="project-tag">Featured</div>
+        <h3>Samyan – AI Health Chatbot</h3>
+        <p>AI-powered chatbot for mental and general health assistance. Built with Python, Flask, and NLP to deliver personalized support and guidance.</p>
+        <div class="tech-tags">
+          <span>Python</span><span>Flask</span><span>NLP</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/AyanChougle/Samyan-Bot" target="_blank" rel="noopener" class="link-btn">GitHub →</a>
+          <a href="https://samyan-chatbot.onrender.com/" target="_blank" rel="noopener" class="link-btn live">Live Demo →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Movie Recommendation Bot</h3>
+        <p>Intelligent movie suggestion system using multiple filters and APIs to deliver personalized recommendations.</p>
+        <div class="tech-tags">
+          <span>Python</span><span>APIs</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/AyanChougle/moviebot" target="_blank" rel="noopener" class="link-btn">GitHub →</a>
+          <a href="https://movie-finder-ai-snbq.onrender.com/" target="_blank" rel="noopener" class="link-btn live">Live Demo →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Advocate Connect</h3>
+        <p>Flutter UI framework connecting clients with advocates via interactive map and detailed profiles. Built as a functional UI prototype.</p>
+        <div class="tech-tags">
+          <span>Flutter</span><span>Firebase</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/AyanChougle/Adv-Connect" target="_blank" rel="noopener" class="link-btn">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Solar Panel App</h3>
+        <p>Flutter app for solar panel monitoring and energy usage optimization built with Firebase.</p>
+        <div class="tech-tags">
+          <span>Flutter</span><span>Firebase</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/AyanChougle/Solar-pannel-app" target="_blank" rel="noopener" class="link-btn">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card more-card">
+        <h3>More on GitHub</h3>
+        <p>Check out my other projects including web apps, bots, and experiments.</p>
+        <div class="project-links">
+          <a href="https://github.com/AyanChougle?tab=repositories" target="_blank" rel="noopener" class="link-btn live">View All →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="contact-inner">
+      <div class="section-label">CONTACT</div>
+      <h2>Let's build something.</h2>
+      <p>Open to freelance, collabs, or just a good conversation about code.</p>
+      <div class="contact-links">
+        <a href="mailto:ayanchougle1234@gmail.com" class="contact-btn">
+          <span>📧</span> Email
+        </a>
+        <a href="https://github.com/AyanChougle" target="_blank" rel="noopener" class="contact-btn">
+          <span>🐙</span> GitHub
+        </a>
+        <a href="https://linkedin.com/in/ayan-chougle" target="_blank" rel="noopener" class="contact-btn">
+          <span>💼</span> LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Ayan Chougle</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
